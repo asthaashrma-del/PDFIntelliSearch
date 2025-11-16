@@ -3,7 +3,8 @@
 A professional PDF Question-Answering project that allows you to **search and query PDF documents** using AI embeddings. 
 Upload PDFs, generate embeddings, and ask questions to get accurate answers.
 
-**Goal of the Project
+## Goal of the Project
+
 To demonstrate the ability to:
 -Convert PDFs into structured searchable text
 -Build embeddings using Sentence Transformers
