@@ -28,6 +28,7 @@ To demonstrate the ability to:
 - FAISS
 - Sentence Transformers
 - PyPDF
+  
 I used Python 3.10.11 because LangChain and several NLP libraries provide the best stability and compatibility with this version. Higher Python versions may cause installation or runtime errors, so 3.10.11 is the recommended environment for LangChain-based projects.
 
 ## How to Run
