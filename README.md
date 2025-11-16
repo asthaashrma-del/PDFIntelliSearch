@@ -2,6 +2,7 @@
 
 A professional PDF Question-Answering project that allows you to **search and query PDF documents** using AI embeddings. 
 Upload PDFs, generate embeddings, and ask questions to get accurate answers.
+
 **Goal:** Can you convert raw documents into something an AI can search intelligently?
 
 
