@@ -7,9 +7,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 import time
 import re
 
-# --------------------------
 # Page Design
-# --------------------------
 st.set_page_config(
     page_title="Searchable PDF Q&A",
     layout="wide",
@@ -39,9 +37,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# --------------------------
 # Load PDFs + Build Index
-# --------------------------
 @st.cache_resource
 def load_and_process():
     pdf_paths = [
@@ -80,9 +76,7 @@ def load_and_process():
 
 chunks, embeddings, index, model, page_texts = load_and_process()
 
-# --------------------------
 # Exact Keyword Search Function
-# --------------------------
 def keyword_search(query, page_texts):
     results = []
     query_lower = query.lower()
@@ -93,9 +87,7 @@ def keyword_search(query, page_texts):
             results.append((page_num, highlighted_text))
     return results
 
-# --------------------------
 # Sidebar
-# --------------------------
 st.sidebar.title("📄 PDF Info")
 st.sidebar.write(f"**Total Chunks:** {len(chunks)}")
 st.sidebar.write(f"**Embedding Model:** MiniLM-L6-v2")
@@ -103,9 +95,7 @@ st.sidebar.write("**Vector DB:** FAISS (Local)")
 st.sidebar.markdown("---")
 st.sidebar.write("Developed with ❤️ for your ML Skill Test")
 
-# --------------------------
 # Main UI
-# --------------------------
 st.title("🔎 Searchable PDF Q&A App")
 st.subheader("Ask anything about the uploaded research papers.")
 
