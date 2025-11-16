@@ -1,6 +1,7 @@
 # Searchable-PDF-QA
 
-This project allows you to **search and query PDF documents** using AI and embeddings.
+A professional PDF Question-Answering project that allows you to **search and query PDF documents** using AI embeddings. 
+Upload PDFs, generate embeddings, and ask questions to get accurate answers.
 
 ## Features
 - Upload PDF files and extract text.
