@@ -24,7 +24,9 @@ Upload PDFs, generate embeddings, and ask questions to get accurate answers.
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/asthaashrma-del/ML-Basics-Project.git
+   git clone https://github.com/asthaashrma-del/PDFIntelliSearch.git
+
+
 
 1-Navigate to the folder:
 cd Searchable-PDF-QA
