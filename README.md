@@ -43,12 +43,15 @@ streamlit run app.py
 Folder Structure
 
 Searchable-PDF-QA/
+ML-Basics-Project/
 │
-├─ app.py
-├─ main.py
-├─ src/
-├─ requirements.txt
-├─ README.md
-├─ .gitignore
-└─ venv/ (ignored)
+├── .vscode/           
+├── data/               
+├── .gitignore
+├── README.md
+├── app.py
+├── main.py
+├── python             
+└── requirements.txt
+
 
