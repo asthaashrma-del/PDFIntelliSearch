@@ -39,19 +39,18 @@ pip install -r requirements.txt
 4-Run the app:
 streamlit run app.py
 
-
-Folder Structure
+## Folder Structure
 
 Searchable-PDF-QA/
 ML-Basics-Project/
-│
-├── .vscode/           
-├── data/               
-├── .gitignore
-├── README.md
+ML-Basics-Project/
+
+├── data
 ├── app.py
 ├── main.py
-├── python             
-└── requirements.txt
+├── python
+├── README.md
+├── requirements.txt
+
 
 
