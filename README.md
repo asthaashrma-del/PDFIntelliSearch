@@ -2,12 +2,16 @@
 
 A professional PDF Question-Answering project that allows you to **search and query PDF documents** using AI embeddings. 
 Upload PDFs, generate embeddings, and ask questions to get accurate answers.
+**Goal:** Can you convert raw documents into something an AI can search intelligently?
+
 
 ## Features
 - Upload PDF files and extract text.
-- Create embeddings for the PDF content.
-- Perform semantic search on the PDFs.
-- Get answers to queries using your documents.
+- Generate embeddings for semantic search.
+- Ask questions and get accurate answers from PDFs.
+- Supports multiple PDFs at once.
+- Works with multiple PDF files in one session.
+
 
 ## Technologies Used
 - Python
